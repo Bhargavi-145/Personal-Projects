@@ -6,7 +6,7 @@ import time
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 translator = Translator()
 
-cap = cv2.VideoCapture(r'C:\Users\Bhargavi\Downloads\Realtime-OCR-Text-Detection-main\Realtime-OCR-Text-Detection-main\test-video\why (1).mp4q') 
+cap = cv2.VideoCapture() 
 
 start_time = time.time()
 frame_count = 0
